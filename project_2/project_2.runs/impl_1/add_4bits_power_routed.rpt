@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-| Date             : Fri Oct  7 16:14:33 2022
+| Date             : Fri Oct  7 16:42:34 2022
 | Host             : DESKTOP-O778VJE running 64-bit major release  (build 9200)
 | Command          : report_power -file add_4bits_power_routed.rpt -pb add_4bits_power_summary_routed.pb -rpx add_4bits_power_routed.rpx
 | Design           : add_4bits
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 8.694        |
+| Total On-Chip Power (W)  | 8.697        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 8.573        |
+| Dynamic (W)              | 8.576        |
 | Device Static (W)        | 0.121        |
 | Effective TJA (C/W)      | 4.9          |
-| Max Ambient (C)          | 42.1         |
-| Junction Temperature (C) | 67.9         |
+| Max Ambient (C)          | 42.0         |
+| Junction Temperature (C) | 68.0         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,13 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.025 |        8 |       --- |             --- |
-|   LUT as Logic |     0.025 |        4 |     32600 |            0.01 |
-|   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.131 |       15 |       --- |             --- |
-| I/O            |     8.417 |       15 |       210 |            7.14 |
+| Slice Logic    |     0.026 |        6 |       --- |             --- |
+|   LUT as Logic |     0.026 |        4 |     32600 |            0.01 |
+| Signals        |     0.133 |       15 |       --- |             --- |
+| I/O            |     8.417 |       14 |       210 |            6.67 |
 | Static Power   |     0.121 |          |           |                 |
-| Total          |     8.694 |          |           |                 |
+| Total          |     8.697 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,7 +67,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.242 |       0.192 |      0.050 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.244 |       0.194 |      0.050 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.324 |       0.307 |      0.017 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     2.373 |       2.372 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -91,7 +90,7 @@ Table of Contents
 | Design implementation state | High       | Design is routed                                       |                                                                                                            |
 | Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
 | I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
-| Internal nodes activity     | Medium     | User specified more than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
 | Device models               | High       | Device models are Production                           |                                                                                                            |
 |                             |            |                                                        |                                                                                                            |
 | Overall confidence level    | Low        |                                                        |                                                                                                            |
@@ -133,7 +132,7 @@ Table of Contents
 +-----------+-----------+
 | Name      | Power (W) |
 +-----------+-----------+
-| add_4bits |     8.573 |
+| add_4bits |     8.576 |
 +-----------+-----------+
 
 

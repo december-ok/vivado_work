@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
-| Date         : Fri Oct  7 16:14:11 2022
+| Date         : Fri Oct  7 16:42:13 2022
 | Host         : DESKTOP-O778VJE running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file add_4bits_control_sets_placed.rpt
 | Design       : add_4bits
