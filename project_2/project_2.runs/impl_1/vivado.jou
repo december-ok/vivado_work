@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Fri Oct  7 16:41:51 2022
-# Process ID: 2676
+# Start of session at: Fri Oct 14 16:24:08 2022
+# Process ID: 24860
 # Current directory: C:/Users/test/vivado/project_2/project_2.runs/impl_1
-# Command line: vivado.exe -log add_4bits.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source add_4bits.tcl -notrace
-# Log file: C:/Users/test/vivado/project_2/project_2.runs/impl_1/add_4bits.vdi
+# Command line: vivado.exe -log Seg7_Display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Seg7_Display.tcl -notrace
+# Log file: C:/Users/test/vivado/project_2/project_2.runs/impl_1/Seg7_Display.vdi
 # Journal file: C:/Users/test/vivado/project_2/project_2.runs/impl_1\vivado.jou
 # Running On: DESKTOP-O778VJE, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 16901 MB
 #-----------------------------------------------------------
-source add_4bits.tcl -notrace
+source Seg7_Display.tcl -notrace
