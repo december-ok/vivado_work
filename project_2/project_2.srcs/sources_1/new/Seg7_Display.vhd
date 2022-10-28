@@ -29,5 +29,4 @@ begin
              & (not Seg_b) & (not Seg_a);
 
     Digit_En <= not Digit_En_sw;
-
 end Behavioral;
