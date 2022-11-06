@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Fri Oct 28 17:23:10 2022
-# Process ID: 26284
+# Start of session at: Sun Nov  6 20:28:21 2022
+# Process ID: 10572
 # Current directory: C:/Users/test/vivado/project_2/project_2.runs/impl_1
-# Command line: vivado.exe -log Digit4_Display.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Digit4_Display.tcl -notrace
-# Log file: C:/Users/test/vivado/project_2/project_2.runs/impl_1/Digit4_Display.vdi
+# Command line: vivado.exe -log T_FLIP_FLOP_BD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source T_FLIP_FLOP_BD.tcl -notrace
+# Log file: C:/Users/test/vivado/project_2/project_2.runs/impl_1/T_FLIP_FLOP_BD.vdi
 # Journal file: C:/Users/test/vivado/project_2/project_2.runs/impl_1\vivado.jou
 # Running On: DESKTOP-O778VJE, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 16901 MB
 #-----------------------------------------------------------
-source Digit4_Display.tcl -notrace
+source T_FLIP_FLOP_BD.tcl -notrace

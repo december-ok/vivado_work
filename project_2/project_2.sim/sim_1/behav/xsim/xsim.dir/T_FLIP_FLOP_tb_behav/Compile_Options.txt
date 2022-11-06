@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "T_FLIP_FLOP_tb_behav" "xil_defaultlib.T_FLIP_FLOP_tb" -log "elaborate.log" 
