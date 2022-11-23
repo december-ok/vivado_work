@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov 23 21:23:59 2022
+# Process ID: 9980
+# Current directory: C:/Users/test/vivado/project_2/project_2.runs/impl_1
+# Command line: vivado.exe -log BCD_counter_2bit_7seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source BCD_counter_2bit_7seg.tcl -notrace
+# Log file: C:/Users/test/vivado/project_2/project_2.runs/impl_1/BCD_counter_2bit_7seg.vdi
+# Journal file: C:/Users/test/vivado/project_2/project_2.runs/impl_1\vivado.jou
+# Running On: DESKTOP-O778VJE, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 16901 MB
+#-----------------------------------------------------------
+source BCD_counter_2bit_7seg.tcl -notrace

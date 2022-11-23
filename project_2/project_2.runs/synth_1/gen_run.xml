@@ -1,66 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1667734058" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/project1_demo.dcp">
-  <File Type="PA-TCL" Name="T_FLIP_FLOP_BD.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="T_FLIP_FLOP_BD_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="T_FLIP_FLOP_BD_reports.tcl"/>
-  <File Type="RDS-RDS" Name="T_FLIP_FLOP_BD.vds"/>
-  <File Type="RDS-UTIL" Name="T_FLIP_FLOP_BD_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="T_FLIP_FLOP_BD_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="T_FLIP_FLOP_BD.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="T_FLIP_FLOP_BD_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="T_FLIP_FLOP_BD_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1669207592" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/project1_demo.dcp">
+  <File Type="PA-TCL" Name="BCD_counter_2bit_7seg.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="BCD_counter_2bit_7seg_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="BCD_counter_2bit_7seg_reports.tcl"/>
+  <File Type="RDS-RDS" Name="BCD_counter_2bit_7seg.vds"/>
+  <File Type="RDS-UTIL" Name="BCD_counter_2bit_7seg_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="BCD_counter_2bit_7seg_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="BCD_counter_2bit_7seg.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="BCD_counter_2bit_7seg_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="BCD_counter_2bit_7seg_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/BCD_counter_2bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CNT_2bits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Seg7_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Seg7_Display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/clk_div.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/T_FLIP_FLOP_BD.vhd">
+    <File Path="$PSRCDIR/sources_1/new/decoder2to4.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/JK_FLIP_FLOP_BD.vhd">
+    <File Path="$PSRCDIR/sources_1/new/mux_4v_4to1.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/D_FLIP_FLOP_BD.vhd">
+    <File Path="$PSRCDIR/sources_1/new/BCD_counter_2bit_7seg.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/D_FLIP_FLOP.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/JK_FLIP_FLOP.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/T_FLIP_FLOP.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="T_FLIP_FLOP_BD"/>
+      <Option Name="TopModule" Val="BCD_counter_2bit_7seg"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

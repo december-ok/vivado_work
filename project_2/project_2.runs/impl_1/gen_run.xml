@@ -1,136 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1667734058">
-  <File Type="ROUTE-PWR" Name="T_FLIP_FLOP_BD_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="T_FLIP_FLOP_BD.tcl"/>
-  <File Type="BITSTR-MMI" Name="T_FLIP_FLOP_BD.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="T_FLIP_FLOP_BD_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="T_FLIP_FLOP_BD_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="T_FLIP_FLOP_BD_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="T_FLIP_FLOP_BD_opt.dcp"/>
-  <File Type="OPT-DRC" Name="T_FLIP_FLOP_BD_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="T_FLIP_FLOP_BD.hwdef"/>
-  <File Type="PWROPT-DCP" Name="T_FLIP_FLOP_BD_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="T_FLIP_FLOP_BD_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="T_FLIP_FLOP_BD_placed.dcp"/>
-  <File Type="PLACE-IO" Name="T_FLIP_FLOP_BD_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="T_FLIP_FLOP_BD_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="T_FLIP_FLOP_BD_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="T_FLIP_FLOP_BD_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="T_FLIP_FLOP_BD_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="T_FLIP_FLOP_BD_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="T_FLIP_FLOP_BD_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="T_FLIP_FLOP_BD.bin"/>
-  <File Type="PLACE-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="T_FLIP_FLOP_BD_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="T_FLIP_FLOP_BD.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="T_FLIP_FLOP_BD_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="T_FLIP_FLOP_BD_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="T_FLIP_FLOP_BD.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="T_FLIP_FLOP_BD_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="T_FLIP_FLOP_BD_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="T_FLIP_FLOP_BD_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="T_FLIP_FLOP_BD_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="T_FLIP_FLOP_BD_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="T_FLIP_FLOP_BD_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="T_FLIP_FLOP_BD_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="T_FLIP_FLOP_BD_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="T_FLIP_FLOP_BD_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="T_FLIP_FLOP_BD_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="T_FLIP_FLOP_BD_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="T_FLIP_FLOP_BD_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="T_FLIP_FLOP_BD_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="T_FLIP_FLOP_BD_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="T_FLIP_FLOP_BD_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="T_FLIP_FLOP_BD_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="T_FLIP_FLOP_BD_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="T_FLIP_FLOP_BD_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="T_FLIP_FLOP_BD_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="T_FLIP_FLOP_BD_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="T_FLIP_FLOP_BD_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="T_FLIP_FLOP_BD_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="T_FLIP_FLOP_BD_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="T_FLIP_FLOP_BD_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="T_FLIP_FLOP_BD_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="T_FLIP_FLOP_BD_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="T_FLIP_FLOP_BD.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="T_FLIP_FLOP_BD_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="T_FLIP_FLOP_BD_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="T_FLIP_FLOP_BD.nky"/>
-  <File Type="BITSTR-BMM" Name="T_FLIP_FLOP_BD_bd.bmm"/>
-  <File Type="PDI-FILE" Name="T_FLIP_FLOP_BD.pdi"/>
-  <File Type="RCFI_FILE" Name="T_FLIP_FLOP_BD.rcfi"/>
-  <File Type="CFI_FILE" Name="T_FLIP_FLOP_BD.cfi"/>
-  <File Type="RNPI_FILE" Name="T_FLIP_FLOP_BD.rnpi"/>
-  <File Type="NPI_FILE" Name="T_FLIP_FLOP_BD.npi"/>
-  <File Type="RBD_FILE" Name="T_FLIP_FLOP_BD.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7s50csga324-1" LaunchTime="1669207592">
+  <File Type="ROUTE-PWR" Name="BCD_counter_2bit_7seg_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="BCD_counter_2bit_7seg.tcl"/>
+  <File Type="BITSTR-MMI" Name="BCD_counter_2bit_7seg.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="BCD_counter_2bit_7seg_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="BCD_counter_2bit_7seg_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="BCD_counter_2bit_7seg_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="BCD_counter_2bit_7seg_opt.dcp"/>
+  <File Type="OPT-DRC" Name="BCD_counter_2bit_7seg_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="BCD_counter_2bit_7seg.hwdef"/>
+  <File Type="PWROPT-DCP" Name="BCD_counter_2bit_7seg_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="BCD_counter_2bit_7seg_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="BCD_counter_2bit_7seg_placed.dcp"/>
+  <File Type="PLACE-IO" Name="BCD_counter_2bit_7seg_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="BCD_counter_2bit_7seg_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="BCD_counter_2bit_7seg_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="BCD_counter_2bit_7seg_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="BCD_counter_2bit_7seg_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="BCD_counter_2bit_7seg_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="BCD_counter_2bit_7seg_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="BCD_counter_2bit_7seg.bin"/>
+  <File Type="PLACE-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="BCD_counter_2bit_7seg_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="BCD_counter_2bit_7seg.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="BCD_counter_2bit_7seg_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="BCD_counter_2bit_7seg_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="BCD_counter_2bit_7seg.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="BCD_counter_2bit_7seg_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="BCD_counter_2bit_7seg_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="BCD_counter_2bit_7seg_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="BCD_counter_2bit_7seg_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="BCD_counter_2bit_7seg_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="BCD_counter_2bit_7seg_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="BCD_counter_2bit_7seg_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="BCD_counter_2bit_7seg_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="BCD_counter_2bit_7seg_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="BCD_counter_2bit_7seg_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="BCD_counter_2bit_7seg_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="BCD_counter_2bit_7seg_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="BCD_counter_2bit_7seg_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="BCD_counter_2bit_7seg_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="BCD_counter_2bit_7seg_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="BCD_counter_2bit_7seg_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="BCD_counter_2bit_7seg_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="BCD_counter_2bit_7seg_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="BCD_counter_2bit_7seg_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="BCD_counter_2bit_7seg_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="BCD_counter_2bit_7seg_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="BCD_counter_2bit_7seg_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="BCD_counter_2bit_7seg_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="BCD_counter_2bit_7seg_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="BCD_counter_2bit_7seg_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="BCD_counter_2bit_7seg_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="BCD_counter_2bit_7seg.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="BCD_counter_2bit_7seg_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="BCD_counter_2bit_7seg_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="BCD_counter_2bit_7seg.nky"/>
+  <File Type="BITSTR-BMM" Name="BCD_counter_2bit_7seg_bd.bmm"/>
+  <File Type="PDI-FILE" Name="BCD_counter_2bit_7seg.pdi"/>
+  <File Type="RCFI_FILE" Name="BCD_counter_2bit_7seg.rcfi"/>
+  <File Type="CFI_FILE" Name="BCD_counter_2bit_7seg.cfi"/>
+  <File Type="RNPI_FILE" Name="BCD_counter_2bit_7seg.rnpi"/>
+  <File Type="NPI_FILE" Name="BCD_counter_2bit_7seg.npi"/>
+  <File Type="RBD_FILE" Name="BCD_counter_2bit_7seg.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="T_FLIP_FLOP_BD.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="T_FLIP_FLOP_BD.sysdef"/>
-  <File Type="BG-BGN" Name="T_FLIP_FLOP_BD.bgn"/>
-  <File Type="BG-DRC" Name="T_FLIP_FLOP_BD.drc"/>
-  <File Type="RDI-RDI" Name="T_FLIP_FLOP_BD.vdi"/>
+  <File Type="BITSTR-LTX" Name="BCD_counter_2bit_7seg.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="BCD_counter_2bit_7seg.sysdef"/>
+  <File Type="BG-BGN" Name="BCD_counter_2bit_7seg.bgn"/>
+  <File Type="BG-DRC" Name="BCD_counter_2bit_7seg.drc"/>
+  <File Type="RDI-RDI" Name="BCD_counter_2bit_7seg.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="T_FLIP_FLOP_BD_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="T_FLIP_FLOP_BD_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="BCD_counter_2bit_7seg_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="BCD_counter_2bit_7seg_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/BCD_counter_2bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CNT_2bits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Seg7_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Seg7_Display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/clk_div.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/T_FLIP_FLOP_BD.vhd">
+    <File Path="$PSRCDIR/sources_1/new/decoder2to4.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/JK_FLIP_FLOP_BD.vhd">
+    <File Path="$PSRCDIR/sources_1/new/mux_4v_4to1.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/D_FLIP_FLOP_BD.vhd">
+    <File Path="$PSRCDIR/sources_1/new/BCD_counter_2bit_7seg.vhd">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/D_FLIP_FLOP.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/JK_FLIP_FLOP.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/T_FLIP_FLOP.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="T_FLIP_FLOP_BD"/>
+      <Option Name="TopModule" Val="BCD_counter_2bit_7seg"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

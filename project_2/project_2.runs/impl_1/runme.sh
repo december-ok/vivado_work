@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log T_FLIP_FLOP_BD.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source T_FLIP_FLOP_BD.tcl -notrace
+EAStep vivado -log BCD_counter_2bit_7seg.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source BCD_counter_2bit_7seg.tcl -notrace
 
 

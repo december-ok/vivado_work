@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Sun Nov  6 20:27:40 2022
-# Process ID: 22996
+# Start of session at: Wed Nov 23 21:46:34 2022
+# Process ID: 6920
 # Current directory: C:/Users/test/vivado/project_2/project_2.runs/synth_1
-# Command line: vivado.exe -log T_FLIP_FLOP_BD.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source T_FLIP_FLOP_BD.tcl
-# Log file: C:/Users/test/vivado/project_2/project_2.runs/synth_1/T_FLIP_FLOP_BD.vds
+# Command line: vivado.exe -log BCD_counter_2bit_7seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BCD_counter_2bit_7seg.tcl
+# Log file: C:/Users/test/vivado/project_2/project_2.runs/synth_1/BCD_counter_2bit_7seg.vds
 # Journal file: C:/Users/test/vivado/project_2/project_2.runs/synth_1\vivado.jou
 # Running On: DESKTOP-O778VJE, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 16901 MB
 #-----------------------------------------------------------
-source T_FLIP_FLOP_BD.tcl -notrace
+source BCD_counter_2bit_7seg.tcl -notrace
