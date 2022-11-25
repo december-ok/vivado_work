@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log BCD_counter_2bit_7seg.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source BCD_counter_2bit_7seg.tcl
+EAStep vivado -log USR_BD.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source USR_BD.tcl
